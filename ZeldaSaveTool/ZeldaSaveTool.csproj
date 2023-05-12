@@ -13,6 +13,7 @@
     <ApplicationManifest>Program.manifest</ApplicationManifest>
     <StartupObject>ZeldaSaveTool.Program</StartupObject>
     <RepositoryUrl>https://github.com/xoascf/ZeldaSaveTool</RepositoryUrl>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">

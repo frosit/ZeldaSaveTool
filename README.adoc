@@ -66,3 +66,8 @@ Export format:
 
 == Requirements
 *.NET 6.0.6*: https://dotnet.microsoft.com/download/dotnet/6.0/runtime
+
+
+== Build
+
+Checkout the github workflow to see how to build it yourself and what dependencies you need.
