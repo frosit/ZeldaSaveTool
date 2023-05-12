@@ -67,7 +67,6 @@ Export format:
 == Requirements
 *.NET 6.0.6*: https://dotnet.microsoft.com/download/dotnet/6.0/runtime
 
+== Building on linux for Windows
 
-== Build
-
-Checkout the github workflow to see how to build it yourself and what dependencies you need.
+To build this on Linux you would need to install dotnet-sdk-6.0 and aspnetcore-runtime-6.0. After that, you can run: dotnet publish -c Release --os win -f net6.0-windows -p:PublishSingleFile=true
